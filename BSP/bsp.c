@@ -79,8 +79,8 @@ void  BSP_Init (void)
                           |RCC_APB2Periph_SPI1  
                           |RCC_APB2Periph_TIM1,
                           //|RCC_APB2Periph_TIM8
-                          //|RCC_APB2Periph_ADC2  
-                          //|RCC_APB2Periph_ADC3  
+                          |RCC_APB2Periph_ADC2  
+                          |RCC_APB2Periph_ADC3  
                           ENABLE);
     RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM2
                           |RCC_APB1Periph_TIM3
@@ -118,7 +118,7 @@ void  BSP_Init (void)
 	//÷–∂œ∑˛ŒÒ≥Ã–Ú≥ı ºªØ
 	BSP_IntInit();
 	
-  	//≥ı ºªØÕ‚…
+  	//≥ı ºªØÕ‚?
 	/* Initialize the I/Os for the ADC      controls. */
     //BSP_ADC_Init(); 
     /* Initialize the I/Os for the LED      controls.  */
