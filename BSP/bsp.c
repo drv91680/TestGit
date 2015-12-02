@@ -90,8 +90,8 @@ void  BSP_Init (void)
                           //|RCC_APB1Periph_TIM7
                           |RCC_APB1Periph_USART2
                           |RCC_APB1Periph_USART3
-                          //|RCC_APB1Periph_UART4
-                          //|RCC_APB1Periph_UART5
+                          |RCC_APB1Periph_UART4
+                          |RCC_APB1Periph_UART5
                           |RCC_APB1Periph_SPI2
                           |RCC_APB1Periph_USB,
                           //|RCC_APB1Periph_SPI3
